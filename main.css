@@ -1,0 +1,78 @@
+.wrapper {
+	left: 10%;
+	top: 5%;
+	width: 80%;
+	height: 90%;
+	position: absolute;
+}
+
+.logo img {
+	max-width: 50px;
+	height: auto;
+	display: inline;
+	float: left;
+	    cursor: pointer;
+
+}
+
+.about{
+	display: inline;
+	float: left;
+	padding-left: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 2.7vw;
+	line-height: 4.3vw;
+	color: #7bd3b8;
+	letter-spacing: .03vw;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: 17px;
+	color: #7bd3b8;
+}
+
+.about-text {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+}
+
+.about-paragraph{
+	position: relative;
+	width: 86%;
+	height: 76%;
+	left: 7%;
+	top: 12%;
+}
+
+span#x {
+    vertical-align:-12%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+h2 a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h2 a:hover{
+	color: #7bd3b8;
+	-webkit-transition: color;
+	transition: color;
+	-webkit-transition-timing-function: ease-in-out 500ms; /* Safari and Chrome */
+    transition-timing-function: ease-in-out 500ms;
+}
